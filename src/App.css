@@ -2,37 +2,55 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.h1 {
+  box-sizing: border-box;
+  border: none;
+  border-style:double;
+  border-radius: 5;
+  text-align: center;
+  background-color: black;
+  color:bisque;
+  border-width: 15;
+  margin-top: 4em;
+  margin-right: 30em;
+  margin-left: 20em;
+  width: 15em;
+  height: 2em;
+}
+:hover .h1{
+  cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.list-box {
+  border: 2px solid gray; /* Add a border to the list-box */
+  border-radius: 10px; /* Add rounded corners */
+  padding: 1em; /* Add padding inside the box */
+  margin: 2em auto; /* Center the box and add vertical margin */
+  width: 50em; /* Set a width for the box */
+  background-color: #f9f9f9; /* Add a background color */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.list-box p {
+  margin: 0.5em 0; /* Add vertical margin between paragraphs */
+  padding: 0.5em; /* Add padding inside the paragraphs */
+  background-color: white; /* Background color for list items */
+  border: 1px solid #ddd; /* Border for list items */
+  border-radius: 5px; /* Rounded corners for list items */
 }
 
-.App-link {
-  color: #61dafb;
+
+.button {
+color: beige;
+background-color: red;
+border: none;
+width: 5em;
+height: 3em;
+border-radius: 1em;
+margin-bottom: 5em;
+margin-top: 5em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+:hover .button{
+  cursor: pointer;
 }
